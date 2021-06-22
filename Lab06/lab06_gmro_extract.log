@@ -1,0 +1,147 @@
+Circuit: * C:\Users\emman\OneDrive\Desktop\Microelectronics Research\CoE197U\Lab06\lab06_gmro_extract.asc
+
+Direct Newton iteration for .op point succeeded.
+.step vgs=0
+.step vgs=0.01
+.step vgs=0.02
+.step vgs=0.03
+.step vgs=0.04
+.step vgs=0.05
+.step vgs=0.06
+.step vgs=0.07
+.step vgs=0.08
+.step vgs=0.09
+.step vgs=0.1
+.step vgs=0.11
+.step vgs=0.12
+.step vgs=0.13
+.step vgs=0.14
+.step vgs=0.15
+.step vgs=0.16
+.step vgs=0.17
+.step vgs=0.18
+.step vgs=0.19
+.step vgs=0.2
+.step vgs=0.21
+.step vgs=0.22
+.step vgs=0.23
+.step vgs=0.24
+.step vgs=0.25
+.step vgs=0.26
+.step vgs=0.27
+.step vgs=0.28
+.step vgs=0.29
+.step vgs=0.3
+.step vgs=0.31
+.step vgs=0.32
+.step vgs=0.33
+.step vgs=0.34
+.step vgs=0.35
+.step vgs=0.36
+.step vgs=0.37
+.step vgs=0.38
+.step vgs=0.39
+.step vgs=0.4
+.step vgs=0.41
+.step vgs=0.42
+.step vgs=0.43
+.step vgs=0.44
+.step vgs=0.45
+.step vgs=0.46
+.step vgs=0.47
+.step vgs=0.48
+.step vgs=0.49
+.step vgs=0.5
+.step vgs=0.51
+.step vgs=0.52
+.step vgs=0.53
+.step vgs=0.54
+.step vgs=0.55
+.step vgs=0.56
+.step vgs=0.57
+.step vgs=0.58
+.step vgs=0.59
+.step vgs=0.6
+
+
+Measurement: gmro
+  step	MAX(mag(v(vout)))	FROM	TO
+     1	(25.1253dB,0°)	1	100
+     2	(26.7101dB,0°)	1	100
+     3	(27.9893dB,0°)	1	100
+     4	(28.9893dB,0°)	1	100
+     5	(29.7465dB,0°)	1	100
+     6	(30.3018dB,0°)	1	100
+     7	(30.6952dB,0°)	1	100
+     8	(30.9625dB,0°)	1	100
+     9	(31.1335dB,0°)	1	100
+    10	(31.2314dB,0°)	1	100
+    11	(31.2739dB,0°)	1	100
+    12	(31.2744dB,0°)	1	100
+    13	(31.2424dB,0°)	1	100
+    14	(31.1851dB,0°)	1	100
+    15	(31.1077dB,0°)	1	100
+    16	(31.0146dB,0°)	1	100
+    17	(30.909dB,0°)	1	100
+    18	(30.7942dB,0°)	1	100
+    19	(30.6733dB,0°)	1	100
+    20	(30.5492dB,0°)	1	100
+    21	(30.4251dB,0°)	1	100
+    22	(30.3045dB,0°)	1	100
+    23	(30.1905dB,0°)	1	100
+    24	(30.0865dB,0°)	1	100
+    25	(29.9955dB,0°)	1	100
+    26	(29.92dB,0°)	1	100
+    27	(29.862dB,0°)	1	100
+    28	(29.8226dB,0°)	1	100
+    29	(29.802dB,0°)	1	100
+    30	(29.7994dB,0°)	1	100
+    31	(29.8128dB,0°)	1	100
+    32	(29.8396dB,0°)	1	100
+    33	(29.8758dB,0°)	1	100
+    34	(29.9173dB,0°)	1	100
+    35	(29.9593dB,0°)	1	100
+    36	(29.9931dB,0°)	1	100
+    37	(30.0159dB,0°)	1	100
+    38	(30.0257dB,0°)	1	100
+    39	(30.0189dB,0°)	1	100
+    40	(29.9927dB,0°)	1	100
+    41	(29.9451dB,0°)	1	100
+    42	(29.8748dB,0°)	1	100
+    43	(29.7815dB,0°)	1	100
+    44	(29.6653dB,0°)	1	100
+    45	(29.527dB,0°)	1	100
+    46	(29.3679dB,0°)	1	100
+    47	(29.1894dB,0°)	1	100
+    48	(28.9933dB,0°)	1	100
+    49	(28.7814dB,0°)	1	100
+    50	(28.5555dB,0°)	1	100
+    51	(28.3174dB,0°)	1	100
+    52	(28.0688dB,0°)	1	100
+    53	(27.8112dB,0°)	1	100
+    54	(27.5461dB,0°)	1	100
+    55	(27.2747dB,0°)	1	100
+    56	(26.9981dB,0°)	1	100
+    57	(26.7173dB,0°)	1	100
+    58	(26.433dB,0°)	1	100
+    59	(26.146dB,0°)	1	100
+    60	(25.8568dB,0°)	1	100
+    61	(25.5657dB,0°)	1	100
+
+
+Date: Tue Jun 22 15:48:37 2021
+Total elapsed time: 0.606 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 4
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 9
+fillins = 0
+solver = Normal
+Matrix Compiler1:      29 opcodes
+Matrix Compiler2: 729 bytes object code size
