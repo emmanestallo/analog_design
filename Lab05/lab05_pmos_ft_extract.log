@@ -1,0 +1,267 @@
+Circuit: * C:\Users\emman\OneDrive\Desktop\Microelectronics Research\CoE197U\Lab05\lab05_pmos_ft_extract.asc
+
+Direct Newton iteration for .op point succeeded.
+.step vsg=0
+.step vsg=0.01
+.step vsg=0.02
+.step vsg=0.03
+.step vsg=0.04
+.step vsg=0.05
+.step vsg=0.06
+.step vsg=0.07
+.step vsg=0.08
+.step vsg=0.09
+.step vsg=0.1
+.step vsg=0.11
+.step vsg=0.12
+.step vsg=0.13
+.step vsg=0.14
+.step vsg=0.15
+.step vsg=0.16
+.step vsg=0.17
+.step vsg=0.18
+.step vsg=0.19
+.step vsg=0.2
+.step vsg=0.21
+.step vsg=0.22
+.step vsg=0.23
+.step vsg=0.24
+.step vsg=0.25
+.step vsg=0.26
+.step vsg=0.27
+.step vsg=0.28
+.step vsg=0.29
+.step vsg=0.3
+.step vsg=0.31
+.step vsg=0.32
+.step vsg=0.33
+.step vsg=0.34
+.step vsg=0.35
+.step vsg=0.36
+.step vsg=0.37
+.step vsg=0.38
+.step vsg=0.39
+.step vsg=0.4
+.step vsg=0.41
+.step vsg=0.42
+.step vsg=0.43
+.step vsg=0.44
+.step vsg=0.45
+.step vsg=0.46
+.step vsg=0.47
+.step vsg=0.48
+.step vsg=0.49
+.step vsg=0.5
+.step vsg=0.51
+.step vsg=0.52
+.step vsg=0.53
+.step vsg=0.54
+.step vsg=0.55
+.step vsg=0.56
+.step vsg=0.57
+.step vsg=0.58
+.step vsg=0.59
+.step vsg=0.6
+.step vsg=0.61
+.step vsg=0.62
+.step vsg=0.63
+.step vsg=0.64
+.step vsg=0.65
+.step vsg=0.66
+.step vsg=0.67
+.step vsg=0.68
+.step vsg=0.69
+.step vsg=0.7
+.step vsg=0.71
+.step vsg=0.72
+.step vsg=0.73
+.step vsg=0.74
+.step vsg=0.75
+.step vsg=0.76
+.step vsg=0.77
+.step vsg=0.78
+.step vsg=0.79
+.step vsg=0.8
+.step vsg=0.81
+.step vsg=0.82
+.step vsg=0.83
+.step vsg=0.84
+.step vsg=0.85
+.step vsg=0.86
+.step vsg=0.87
+.step vsg=0.88
+.step vsg=0.89
+.step vsg=0.9
+.step vsg=0.91
+.step vsg=0.92
+.step vsg=0.93
+.step vsg=0.94
+.step vsg=0.95
+.step vsg=0.96
+.step vsg=0.97
+.step vsg=0.98
+.step vsg=0.99
+.step vsg=1
+.step vsg=1.01
+.step vsg=1.02
+.step vsg=1.03
+.step vsg=1.04
+.step vsg=1.05
+.step vsg=1.06
+.step vsg=1.07
+.step vsg=1.08
+.step vsg=1.09
+.step vsg=1.1
+.step vsg=1.11
+.step vsg=1.12
+.step vsg=1.13
+.step vsg=1.14
+.step vsg=1.15
+.step vsg=1.16
+.step vsg=1.17
+.step vsg=1.18
+.step vsg=1.19
+.step vsg=1.2
+
+
+Measurement: ft
+  step	mag(id(m1)/ig(m1))=1
+     1	301643
+     2	477254
+     3	683297
+     4	931281
+     5	1.22737e+006
+     6	1.59e+006
+     7	2.05255e+006
+     8	2.61614e+006
+     9	3.30219e+006
+    10	4.13433e+006
+    11	5.1378e+006
+    12	6.33785e+006
+    13	7.82564e+006
+    14	9.62572e+006
+    15	1.17617e+007
+    16	1.42501e+007
+    17	1.7068e+007
+    18	2.01125e+007
+    19	2.38706e+007
+    20	2.78413e+007
+    21	3.15206e+007
+    22	3.60073e+007
+    23	3.94925e+007
+    24	4.3548e+007
+    25	4.67703e+007
+    26	4.92387e+007
+    27	5.18355e+007
+    28	5.44213e+007
+    29	5.66707e+007
+    30	5.87235e+007
+    31	6.06556e+007
+    32	6.24978e+007
+    33	6.49764e+007
+    34	6.76675e+007
+    35	7.01772e+007
+    36	7.24909e+007
+    37	7.46013e+007
+    38	7.6508e+007
+    39	7.82168e+007
+    40	7.99287e+007
+    41	8.21153e+007
+    42	8.40345e+007
+    43	8.57102e+007
+    44	8.71654e+007
+    45	8.8422e+007
+    46	8.95e+007
+    47	9.04177e+007
+    48	9.11915e+007
+    49	9.18361e+007
+    50	9.23646e+007
+    51	9.27884e+007
+    52	9.31179e+007
+    53	9.3362e+007
+    54	9.35285e+007
+    55	9.36244e+007
+    56	9.36557e+007
+    57	9.36277e+007
+    58	9.3545e+007
+    59	9.34117e+007
+    60	9.32312e+007
+    61	9.30067e+007
+    62	9.27407e+007
+    63	9.24354e+007
+    64	9.20928e+007
+    65	9.17144e+007
+    66	9.13013e+007
+    67	9.0855e+007
+    68	9.03763e+007
+    69	8.98656e+007
+    70	8.93234e+007
+    71	8.87497e+007
+    72	8.81444e+007
+    73	8.75072e+007
+    74	8.68375e+007
+    75	8.61344e+007
+    76	8.53967e+007
+    77	8.46232e+007
+    78	8.3812e+007
+    79	8.29612e+007
+    80	8.20682e+007
+    81	8.11305e+007
+    82	8.01447e+007
+    83	7.92331e+007
+    84	7.85629e+007
+    85	7.78566e+007
+    86	7.71113e+007
+    87	7.63239e+007
+    88	7.5491e+007
+    89	7.46088e+007
+    90	7.36735e+007
+    91	7.2681e+007
+    92	7.16269e+007
+    93	7.05067e+007
+    94	6.93159e+007
+    95	6.80495e+007
+    96	6.67027e+007
+    97	6.52705e+007
+    98	6.37477e+007
+    99	6.25028e+007
+   100	6.14494e+007
+   101	6.03323e+007
+   102	5.91481e+007
+   103	5.78928e+007
+   104	5.65622e+007
+   105	5.51513e+007
+   106	5.36546e+007
+   107	5.20656e+007
+   108	5.03764e+007
+   109	4.91682e+007
+   110	4.79841e+007
+   111	4.67165e+007
+   112	4.5354e+007
+   113	4.38826e+007
+   114	4.22849e+007
+   115	4.05387e+007
+   116	3.90453e+007
+   117	3.7664e+007
+   118	3.60935e+007
+   119	3.42853e+007
+   120	3.21748e+007
+   121	3.0242e+007
+
+
+Date: Sun May 23 21:58:55 2021
+Total elapsed time: 1.270 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 4
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 8
+fillins = 0
+solver = Normal
+Matrix Compiler1:      20 opcodes
+Matrix Compiler2: 656 bytes object code size
