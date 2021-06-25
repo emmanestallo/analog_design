@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1624558040 "c:/Users/emman/OneDrive/Desktop/Microelectronics Research/CoE197U/Lab07/curr_mirr.tex" "curr_mirr.pdf" "curr_mirr" 1624558494
+["pdflatex"] 1624634891 "c:/Users/emman/OneDrive/Desktop/Microelectronics Research/CoE197U/Lab07/curr_mirr.tex" "curr_mirr.pdf" "curr_mirr" 1624634892
   "C:/Users/emman/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1623174191 9742850 26d024e17b8a14f415b7a7ee7b66df72 ""
   "C:/Users/emman/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1624512288 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/emman/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi12.tfm" 1136765053 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -39,11 +39,11 @@
   "C:/Users/emman/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty" 1623003325 2671 4de6781a30211fe0ea4c672e4a2a8166 ""
   "C:/Users/emman/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.sty" 1623003325 4007 3bccccf8f35e1bc1ef0f7c55ceeb7713 ""
   "C:/Users/emman/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1620382912 27177 c0f5f128013bde6670e188c4af243210 ""
-  "c:/Users/emman/OneDrive/Desktop/Microelectronics Research/CoE197U/Lab07/curr_mirr.tex" 1624558493 2132 cb69671571e2a9147af16b0bef3085d7 ""
-  "curr_mirr.aux" 1624558041 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
-  "curr_mirr.tex" 1624558493 2132 cb69671571e2a9147af16b0bef3085d7 ""
+  "c:/Users/emman/OneDrive/Desktop/Microelectronics Research/CoE197U/Lab07/curr_mirr.tex" 1624634890 2872 bbc8887a04110250ac201dad9384ccbb ""
+  "curr_mirr.aux" 1624634891 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
+  "curr_mirr.tex" 1624634890 2872 bbc8887a04110250ac201dad9384ccbb ""
   "mir.png" 1624551360 18420 d7bde851ee5ab6aa6575121a97dd0e9d ""
   (generated)
   "curr_mirr.pdf"
-  "curr_mirr.aux"
   "curr_mirr.log"
+  "curr_mirr.aux"

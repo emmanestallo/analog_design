@@ -19,7 +19,7 @@ Notice that $V_{GS,M1} = V_{GS,M2}$. If the transistors have the same mobility $
 capacitance $C_{ox}$ and threshold voltage $V_{TH}$,
 
 \vspace{10pt}
-\noindent Since $I_{DS,M1} = I_{REF}$ and $I_{DS,M2} = I_{O}$, 
+\noindent since $I_{DS,M1} = I_{REF}$ and $I_{DS,M2} = I_{O}$, 
 \large 
 $$\frac{I_{REF}}{\frac{W_1}{L_1}(1+\lambda_1 V_{DS,1})} = \frac{I_{O}}{\frac{W_2}{L_2}(1+\lambda_2 V_{DS,2})}$$
 \normalsize Finally, 
@@ -57,5 +57,42 @@ $$I_{O} = I_{REF} \cdot \frac{W_{2}(1+\lambda V_{DS,2})}{W_{1}(1+\lambda V_{DS,1
 \normalsize 
 \vspace{8pt}
 \\ $W_N = 62.5um$, $I_{DN} = 101.7uA$
+
+\vspace{20pt}
+\noindent 
+We want $I_{DN} = I_{DP} = 101.7uA$
+\vspace{8pt}
+\Large
+\\ $k_{multiplier} = \frac{101.7uA}{1uA} = 101.7$
+\vspace{8pt}
+\normalsize
+\\$W_{P} = 101.7 \cdot 2um = 203.4um$
+
+
+\vspace{20pt}
+\noindent 
+Since the biasing transistor has $I_{REF} = 10\mu A$, and we want $I_{DS} = I_{DP} = 101.7\mu A$,
+\vspace{8pt}
+\\ We design the biasing transistor such that they have the same lengths but their widths follow the 
+ratio 
+\large 
+$$\frac{W_{P}}{W_{REF}} = \frac{101.7\mu}{10\mu} = 10.17$$ 
+\normalsize
+The biasing transistor should have a width that is $10.17$ times smaller than the width of the active
+PMOS load.
+\large
+$$W_{REF} = \frac{203.4\mu m}{10.17} = 20\mu m$$
+
+
+
+
+
+
+
+
+
+
+
+
 
 \end{document}
