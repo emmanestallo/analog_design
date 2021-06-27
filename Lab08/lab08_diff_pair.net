@@ -1,0 +1,17 @@
+* C:\Users\emman\OneDrive\Desktop\Microelectronics Research\CoE197U\Lab08\lab08_diff_pair.asc
+M1 VON VIP VTAIL 0 N_50n l=1u w=10u
+M2 VOP VIN VTAIL 0 N_50n l=1u w=10u
+ITAIL VTAIL 0 60µ
+R1 VDD VON 20k
+R2 VDD VOP 20k
+VDD VDD 0 1.2
+VID VIP N001 0
+VIC N001 0 0.35
+E§FIX VIN N001 VIP N001 -1
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\emman\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.mos
+.inc transistor_models.txt
+.dc VIC 0.3 0.5 1m
+.backanno
+.end
