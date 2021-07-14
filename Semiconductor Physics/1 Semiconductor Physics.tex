@@ -1,0 +1,116 @@
+\documentclass{article}
+
+\usepackage{amsmath,amssymb}
+\usepackage[margin=0.7in]{geometry}
+
+\title{Semiconductor Physics}
+\author{Emmanuel Estallo}
+\date{\today}
+
+\begin{document}
+\maketitle 
+\noindent 
+\section{Resistivity and Conductivity}
+For any material, if we connect two terminals across it, we can obtain its resistance.
+The resistance of any device is defined as $$R = \rho \frac{L}{A}$$ where $L$ is the
+length of the device, $\rho$ is the resistivity, and $A$ is the cross-sectional area. 
+\vspace{8pt}
+\\ Similarly, conductivity is obtained by $$G = \frac{1}{R}$$
+
+\section{Quantum Mechanics}
+\noindent 
+The \textbf{Wave Particle Duality} states that a particle can behave as a wave and at 
+the same time, a wave can behave as a particle. This is captured by the 
+\textbf{De Broglie Wavelength} which states that for any particle with momentum $p$,
+we can associate a wavelength $\lambda$ such that $$\lambda = \frac{h}{p}$$ where $h$
+is the Planck's constant.  
+\vspace{8pt}
+\\ Now, consider the hydrogen atom. It has a single proton, and a single electron on
+its orbital. The electron is moving with a momentum $p$ and charge $-e$. If the electron
+is treated as a wave, the question is that "\textbf{What are the allowed trajectories?}" 
+
+\vspace{8pt}
+\noindent 
+From those, we can calculate the allowed energies, and some other parameters. 
+
+\vspace{8pt}
+\noindent 
+Since the $\psi$ function represents probability of presence, if I want to have a 
+significant presence along the orbital of the atom, then we want the circumference 
+to be an integer multiple of the wavelength. This means that the integer 
+multiples of the wavelength are the possible trajectories. 
+$$2\pi r = n\lambda = n \; \frac{h}{p}$$
+Is the condition for having a sustainable trajectory. 
+\vspace{8pt}
+\\ We also know that the electron does not move way from the proton because it is 
+bound by a force. That force is $$F = \frac{1}{4\pi\epsilon_{0}} \frac{e^2}{r^2}
+= \frac{mv^2}{r} = \frac{p^2}{mr}$$
+\newpage 
+\noindent 
+Simplifying, we get $$2\pi r = n \; \frac{h}{p}$$
+$$\frac{1}{4\pi \epsilon_0} \frac{e^2}{r} = \frac{p^2}{m}$$
+Obtaining p, $$r = \frac{nh}{2\pi p}$$
+$$\frac{1}{4\pi\epsilon_0} \; \frac{e^2 (2\pi p)}{nh} = \frac{p^2}{m} $$
+$$\frac{1}{2\epsilon_0} \; \frac{e^2}{nh} = \frac{p}{m}$$
+Finally, 
+$$\boxed{p = \frac{me^2}{2\epsilon_0 h} \; \frac{1}{n}}$$
+Plugging it back to the r equation gives 
+$$r = \frac{nh}{2\pi} \; \frac{2\epsilon_0}{me^2} \; nh$$
+$$r=  \frac{nh}{\pi} \frac{\epsilon_0}{me^2} \; nh$$
+Finally, 
+$$\boxed{r = \frac{\epsilon_0}{\pi me^2} \; n^2 h^2}$$
+where $n \in \mathbb{N}$ and $m$ is the mass of the electron. 
+\vspace{8pt}
+\\ This means that both radius and momentum are quantized. They can only take certain 
+values given that they have a bound state. It requires that the sum of the kinetic and 
+potential energies of the particle be negative. 
+$$E_{total} = E_{kinetic} + E_{potential}$$
+$$E_{total} = \frac{p^2}{2m} - \frac{1}{4\pi\epsilon_0} \; \frac{e^2}{r} $$ 
+$$E_{total} = \frac{p^2}{2m} - \frac{p^2}{m} = -\frac{p^2}{2m} \rightarrow E_{total} < 0$$
+Substituting $p$ to the total energy equation gives 
+$$E_{total} = -\frac{m e^4}{8\epsilon_0^2 h^2} \cdot \frac{1}{n^2}$$ 
+$$\boxed{E_{total} = -\frac{13.6\; eV}{n^2}}$$
+\newpage 
+\noindent 
+If we have another atom of the same kind that is close to it, the energy levels of either
+of those atoms would change because of the \textbf{Pauli Exclusion Principle.} The 
+principle states that you cannot have the same quantum numbers when two particles come
+together. 
+\vspace{8pt}
+\\ Since the two atoms occupy the same spatial area, their energy levels cannot be the 
+same. Each energy level will split (each energy level can take two electrons : up-spin
+or down-spin). This is what we call degeneracy.
+\vspace{8pt}
+\\The next question is that \textbf{When does the Pauli Exclusion Principle become 
+important?} Apparently, the principle is always there. No two atoms in the universe have 
+the same quantum numbers. It just becomes less noticeable when they are far apart and
+more evident when they get close. 
+\vspace{8pt}
+\\ When we create a crystal lattice, many electrons come together and we see more 
+degeneracy. These degenerate energy levels are what we call energy bands. 
+\textbf{Hybridization} happens within some of these bands specifically those of 
+tetrahedral structure with a $109.5^{o}$ angle. At $0\;K$, the bands are filled from  
+the lowest to the highest energy band. Thus for a carbon atom which has 6 electrons,
+the $1s^2$ band is filled as well as the $2s^{1}\; 2p^{3}$ hybrid band. 
+\vspace{8pt}
+\\ Consider two bands, an valence band and a conduction band. If the valence band is full,
+then the material is a bad conductor since it allows no electron movement. A good conductor 
+is one that allows full electron movement from the valence band to the conduction band.
+A \textbf{semiconductor} is somewhat in the middle. The bands where there are no 
+electrons can be called holes and carry a positive charge. Electrons move faster than
+holes. \textbf{Recombination} is the process of combining holes and electrons within
+a band. At the steady-state, the rate of recombination and hole generation are equal.
+
+\section{Solid-State Physics}
+\noindent 
+
+
+
+
+
+
+
+
+
+
+\end{document}
