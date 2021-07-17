@@ -122,16 +122,32 @@ $$p = N_{v} e^\frac{E_v - E_f}{kT}$$
 For an intrinsic semiconductor, $$\boxed{n_{i}^2 = np}$$
 
 \newpage 
-\section{Drift and Diffusion}
+\subsection{Drift and Diffusion}
 \noindent 
-
-
-
-
-
-
-
-
+The \textbf{Equipartition Theorem} states that in thermal equilibrium, each
+degree of freedom takes an energy $$E = \frac{1}{2}kT$$ on average. For an electron, 
+the degree of freedom is equal to 3. That translates to $$E_{total} = \frac{3}{2}kT$$
+From classical mechanics, $$E_{kinetic}=\frac{1}{2}mv^2$$ 
+We get, $$\frac{1}{2}mv^2 = \frac{3}{2}kT$$ $$v^2 = \frac{3kT}{m}$$ Since the mass 
+is very small for an electron, the velocity is very high. 
+\vspace{8pt}
+\\ Consider an electric field on which the electron is placed. Assume that the field 
+has a magnitude of $E$. 
+\vspace{8pt}
+\\We know that, $$F = \frac{dP}{dt}$$ and $$-qE = \frac{\Delta P}{\Delta T} 
+= \frac{m\Delta v}{\tau_{c}}$$ $$\boxed{\Delta v = \frac{qE \tau_c}{m}}$$ We can assume 
+that the velocity, on average, is equal to $$\boxed{v_{ave} = \frac{1}{2} \Delta v = 
+\frac{1}{2} \frac{qE \tau_c}{m} = v_{drift}}$$
+Which is also equal to $$\boxed{v_{drift} = -\mu_n E}$$ where $\mu_n$ is the mobility.
+\vspace{8pt}
+\\ The incremental charge that passes through a slice of a slab is obtained by 
+$$dq = -qnAv_d \cdot dt$$
+where $-q$ is the charge of an electron, $n$ is the electron density, $A$ is the 
+cross-sectional area of the slab, and $v_d$ is the drift velocity. We know that 
+$$I_n = \frac{dq}{dt} = -qnAv_{d}$$ and $$J_n = \frac{I}{A} =-nqv_d = qn\mu_n E$$
+Similarly for holes, $$J_p = qp\mu_p E$$
+Finally, $$\boxed{J_{total} = q\cdot(n\mu_n + p\mu_p)E = \sigma E}$$
+where $\sigma$ is the conductivity. The resistivity, $\rho$, is the reciprocal of $\sigma$.
 
 
 
