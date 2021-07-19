@@ -2,6 +2,8 @@
 
 \usepackage{amsmath,amssymb}
 \usepackage[margin=0.7in]{geometry}
+\usepackage{float}
+\usepackage{graphicx}
 
 \title{Semiconductor Physics}
 \author{Emmanuel Estallo}
@@ -94,7 +96,7 @@ tetrahedral structure with a $109.5^{o}$ angle. At $0\;K$, the bands are filled 
 the lowest to the highest energy band. Thus for a carbon atom which has 6 electrons,
 the $1s^2$ band is filled as well as the $2s^{1}\; 2p^{3}$ hybrid band. 
 \vspace{8pt}
-\\ Consider two bands, an valence band and a conduction band. If the valence band is full,
+\\ Consider two bands, a valence band and a conduction band. If the valence band is full,
 then the material is a bad conductor since it allows no electron movement. A good conductor 
 is one that allows full electron movement from the valence band to the conduction band.
 A \textbf{semiconductor} is somewhat in the middle. The bands where there are no 
@@ -119,7 +121,14 @@ of finding an electron is $\frac{1}{2}$. As $E-E_{f}$ gets $>3kT$, the more it
 resembles the \textbf{Boltzmann Distribution.} $$f(E) \propto{e^\frac{-E}{kT}}$$
 We can then obtain the relation $$n = N_{c} e^\frac{E_f - E_c}{kT}$$ and 
 $$p = N_{v} e^\frac{E_v - E_f}{kT}$$ 
-For an intrinsic semiconductor, $$\boxed{n_{i}^2 = np}$$
+For an intrinsic semiconductor, $$\boxed{n_{i}^2 = np}$$ where $n_i$ is the intrinsic
+carrier concentration. 
+\vspace{8pt}
+\\
+Similarly, the density of carriers n and p are given by 
+$$\boxed{N_D = n = n_{i}e^{\frac{E_f -E_i}{kT}}}$$
+and 
+$$\boxed{N_A = p = n_{i}e^{\frac{E_i -E_f}{kT}}}$$
 
 \newpage 
 \subsection{Drift and Diffusion}
@@ -149,16 +158,56 @@ Similarly for holes, $$J_p = qp\mu_p E$$
 Finally, $$\boxed{J_{total} = q\cdot(n\mu_n + p\mu_p)E = \sigma E}$$
 where $\sigma$ is the conductivity. The resistivity, $\rho$, is the reciprocal of $\sigma$.
 
+\newpage 
+\subsection{PN Junction}
+\noindent 
+Consider two pieces of semiconductor. A P-type semiconductor has acceptor atoms; 
+an N-type has donor atoms. In a simple sense, the P-type semiconductor has more holes,
+and the N-type semiconductor has more electrons. 
+\vspace{8pt}
+\\
+As the temperature increases, some atoms get ionized. Some holes from the p-type 
+material goes to the n-type material. Similarly, some electrons from the n-type 
+material goes to the p-type material. The border of these regions get depleted. 
+This is what we call the \textbf{Depletion Region.} Recombination happens to some 
+electrons and holes. This process happens randomly. 
+\vspace{8pt}
+\\ This depletion region generates an electric field. As the temeperature increases, 
+the depletion region gets larger. As the depletion region gets larger, the generated
+electric field becomes stronger. This electric field impedes the movement of a charge
+from a region to the other. If an electron has enough energy, then that electron can 
+jump from the n region to the p region. Those electron-hole pairs that recombined at 
+the depletion region gets affected by the electric field. This opposes the creation of
+a depletion region. 
+\vspace{8pt}
+\\ We know that energy is the product of charge and voltage. Thus,
+$$q\psi_p = E_{i,p} - E_{f} = kT \cdot ln\left(\frac{N_A}{n_i}\right)$$
+and $$\psi_p = E_{i,p} - E_{f} = \frac{kT}{q} ln\left(\frac{N_A}{n_i}\right)$$
+similarly for the electrons, 
+$$\psi_n = E_{f} - E_{i,n} = \frac{kT}{q} ln\left(\frac{N_D}{n_i}\right)$$
+Finally, 
+$$\boxed{\psi_o = \psi_n + \psi_p = \frac{kT}{q}ln\left(\frac{N_A N_D}{n_i^2} \right)}$$ 
+where $\psi_o$ is the built in potential. 
 
+\vspace{8pt}
+\noindent  
+From the Boltzmann distribution, 
+$$n \propto \exp\left(-\frac{q\psi_o}{kT}\right)$$
+where n is the number of electrons that has enough energy to pass the potential barrier.
+This is also true for the holes. 
 
-
-
-
-
-
-
-
-
-
-
+\vspace{8pt}
+\noindent  
+If we apply a forward-bias $V_D$ across the ends of the pn junction, then the depletion 
+region will be smaller. The electric field will go down and the potential barrier will 
+be lowered by $qV_D$. This means that more electrons can pass through. 
+$$n \propto \exp\left(-\frac{q(\psi_o -V_D)}{kT}\right)$$ The net flow of electrons is 
+obtained by $$\boxed{J_n = \exp\left(-\frac{q(\psi_o -V_D)}{kT}\right)-
+\exp\left(-\frac{q\psi_o}{kT}\right) = \exp\left(-\frac{q\psi_o}{kT}\right)\cdot 
+\left[\exp\left(\frac{qV_D}{kT}\right)-1\right]}$$
+This means that the net current is proportional to
+$$\exp\left(\frac{qV_D}{kT}\right)-1$$
+The diode current is then obtained by 
+$$\boxed{I = I_s \left[\exp\left(\frac{qV_D}{kT}\right)-1\right]}$$ 
+where $I_s$ is the proportionality constant. 
 \end{document}
