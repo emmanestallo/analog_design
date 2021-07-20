@@ -1,5 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1626787525 "d:/emman/Codes/Circuits - Practice/analog_design/Transistors/Transistors.tex" "Transistors.pdf" "Transistors" 1626787525
+["pdflatex"] 1626787585 "d:/emman/Codes/Circuits - Practice/analog_design/Transistors/2 Transistors.tex" "2 Transistors.pdf" "2 Transistors" 1626787596
+  "2 Transistors.aux" 1626787586 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "2 Transistors.tex" 1626787596 226 7796bf30919807f7443fc7d3e42c71f1 ""
   "C:/Users/emman/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1623174191 9742850 26d024e17b8a14f415b7a7ee7b66df72 ""
   "C:/Users/emman/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1626618703 82686 2381c3433487640bf26aa76a10db7eb2 ""
   "C:/Users/emman/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -39,10 +41,8 @@
   "C:/Users/emman/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty" 1578053545 42759 9cf6c5257b1bc7af01a58859749dd37a ""
   "C:/Users/emman/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty" 1623003325 2671 4de6781a30211fe0ea4c672e4a2a8166 ""
   "C:/Users/emman/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1620382912 27177 c0f5f128013bde6670e188c4af243210 ""
-  "Transistors.aux" 1626787525 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "Transistors.tex" 1626787523 226 7796bf30919807f7443fc7d3e42c71f1 ""
-  "d:/emman/Codes/Circuits - Practice/analog_design/Transistors/Transistors.tex" 1626787523 226 7796bf30919807f7443fc7d3e42c71f1 ""
+  "d:/emman/Codes/Circuits - Practice/analog_design/Transistors/2 Transistors.tex" 1626787596 226 7796bf30919807f7443fc7d3e42c71f1 ""
   (generated)
-  "Transistors.log"
-  "Transistors.pdf"
-  "Transistors.aux"
+  "2 Transistors.aux"
+  "2 Transistors.log"
+  "2 Transistors.pdf"

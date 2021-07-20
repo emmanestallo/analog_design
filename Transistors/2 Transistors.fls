@@ -1,7 +1,7 @@
 PWD d:\emman\Codes\Circuits - Practice\analog_design\Transistors
 INPUT C:\Users\emman\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT d:\emman\Codes\Circuits - Practice\analog_design\Transistors\Transistors.tex
-OUTPUT Transistors.log
+INPUT d:\emman\Codes\Circuits - Practice\analog_design\Transistors\2 Transistors.tex
+OUTPUT 2 Transistors.log
 INPUT C:\Users\emman\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\emman\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\emman\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -157,10 +157,10 @@ INPUT C:\Users\emman\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend
 INPUT C:\Users\emman\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\emman\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\emman\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT .\Transistors.aux
-INPUT Transistors.aux
-INPUT Transistors.aux
-OUTPUT Transistors.aux
+INPUT .\2 Transistors.aux
+INPUT 2 Transistors.aux
+INPUT 2 Transistors.aux
+OUTPUT 2 Transistors.aux
 INPUT C:\Users\emman\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\emman\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\emman\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
@@ -188,9 +188,9 @@ INPUT C:\Users\emman\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
 INPUT C:\Users\emman\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\emman\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\emman\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-OUTPUT Transistors.pdf
+OUTPUT 2 Transistors.pdf
 INPUT C:\Users\emman\AppData\Local\MiKTeX\pdftex\config\pdftex.map
-INPUT Transistors.aux
+INPUT 2 Transistors.aux
 INPUT C:\Users\emman\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\emman\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\emman\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb

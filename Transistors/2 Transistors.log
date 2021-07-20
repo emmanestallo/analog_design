@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.9)  20 JUL 2021 21:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.9)  20 JUL 2021 21:26
 entering extended mode
-**"d:/emman/Codes/Circuits - Practice/analog_design/Transistors/Transistors.tex"
-(d:/emman/Codes/Circuits - Practice/analog_design/Transistors/Transistors.tex
+**"d:/emman/Codes/Circuits - Practice/analog_design/Transistors/2 Transistors.tex"
+(d:/emman/Codes/Circuits - Practice/analog_design/Transistors/2 Transistors.tex
 LaTeX2e <2021-06-01>
 L3 programming layer <2021-06-01> (C:\Users\emman\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
@@ -108,8 +108,8 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count271
 \l__pdf_internal_box=\box52
-) (Transistors.aux)
-\openout1 = `Transistors.aux'.
+) (2 Transistors.aux)
+\openout1 = `"2 Transistors.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
@@ -169,17 +169,17 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{C:/Users/emman/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (Transistors.aux) ) 
+{C:/Users/emman/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (2 Transistors.aux) ) 
 Here is how much of TeX's memory you used:
- 2128 strings out of 478864
- 29551 string characters out of 2848661
- 328148 words of memory out of 3000000
- 20071 multiletter control sequences out of 15000+600000
+ 2129 strings out of 478864
+ 29610 string characters out of 2848661
+ 328158 words of memory out of 3000000
+ 20072 multiletter control sequences out of 15000+600000
  408374 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,66p,305b,218s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,6n,66p,307b,218s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/emman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/emman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/emman/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Transistors.pdf (1 page, 30558 bytes).
+Output written on "2 Transistors.pdf" (1 page, 30558 bytes).
 PDF statistics:
  21 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
