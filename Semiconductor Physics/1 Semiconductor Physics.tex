@@ -159,6 +159,7 @@ where $\sigma$ is the conductivity. The resistivity, $\rho$, is the reciprocal o
 
 \newpage 
 \subsection{PN Junction}
+\subsubsection{Depletion Region}
 \noindent 
 Consider two pieces of semiconductor. A P-type semiconductor has acceptor atoms; 
 an N-type has donor atoms. In a simple sense, the P-type semiconductor has more holes,
@@ -209,4 +210,56 @@ $$\exp\left(\frac{qV_D}{kT}\right)-1$$
 The diode current is then obtained by 
 $$\boxed{I = I_s \left[\exp\left(\frac{qV_D}{kT}\right)-1\right]}$$ 
 where $I_s$ is the proportionality constant. 
+
+\newpage
+\subsubsection{Junction Capacitance}
+\noindent 
+If a reverse bias is applied at the pn junction, the depletion region becomes larger. 
+The depletion region behaves like a parallel-plate capacitor. We know that 
+$$\frac{C}{A} = \frac{\epsilon}{d}$$
+and following the order of integration, $\rho \rightarrow E \rightarrow \psi.$ 
+From the volume charge density we can obtain the electric field. From the electric field 
+we can obtain the electric potential. Note that the volume charge density $\rho$ is 
+equal to the surface charge density $\sigma$ divided by the length. 
+$$\rho = \frac{\sigma}{x}$$
+\vspace{8pt}
+\textbf{Gauss' Law} tells us that the electric field across a gaussian surface is given 
+by $$E=\frac{\sigma}{\epsilon}$$
+The magnitude of the electric field at the depletion region is given by
+$$\boxed{E_{max} = \frac{qx_nN_D}{\epsilon} = \frac{qx_pN_A}{\epsilon}}$$ where $x_n$ and $x_p$
+are the lengths of the depletion region on the n and p regions respectively. 
+\vspace{8pt}
+\\ Since we started with total charge neutrality, the net charges should be equal. 
+$$x_nN_D = x_pN_A$$
+$$x_n + x_p = x_n + x_n \frac{N_D}{N_A} = x_n \left(\frac{N_A + N_D}{N_A}\right)$$
+$$\boxed{x_n N_D = \frac{N_A N_D}{N_A + N_D}(x_n + x_p)}$$
+Thus, $$E_{max}= \frac{q}{\epsilon} \frac{N_A N_D}{N_A + N_D}(x_n + x_p)$$
+The potential on the p and n sides of the depletion region are given by 
+$$\psi_p = \frac{1}{2}x_p E_{max}$$ $$\psi_n = \frac{1}{2}x_n E_{max}$$
+We know that applying an external reverse bias $-V_D$ gives 
+$$\psi_o - V_D = \psi_p + \psi_n = \frac{E_{max}}{2}(\psi_p + \psi_n)
+= \frac{q}{2\epsilon}\left(\frac{N_A N_D}{N_A + N_D}\right)(x_n + x_p)^2$$
+$$x_n + x_p = \sqrt{\frac{2\epsilon}{q}\left(\frac{1}{N_A}+\frac{1}{N_D}\right) 
+(\psi_o - V_D)}$$
+Finally, 
+$$\boxed{C_j = \sqrt{\frac{q\epsilon}{2\left(\frac{1}{N_A}+\frac{1}{N_D}\right)
+(\psi_o -V_D)}} = \frac{C_{j0}}{\left(1-\frac{V_D}{\psi_o}\right)^\frac{1}{2}}}$$
+Where $C_{j0}$ is the value of $C_j$ at $V_D = 0$.
+ 
+
+
+\vspace{8pt}
+
+
+
+
+
+
+
+
+
+
+
 \end{document}
+
+
