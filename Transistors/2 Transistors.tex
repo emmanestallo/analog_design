@@ -7,7 +7,6 @@
 
 \title{Transistors}
 \author{Emmanuel Estallo}
-\date{\today}
 
 \begin{document}
 \boldmath 
@@ -39,9 +38,33 @@ to increase the electric field strength. This allows electrons to pass through e
 be better to make the base region as thin as possible. Because of this, the 
 concentration of the minority carriers decrease immediately. This resembles the diode.
 The collector current is obtained by 
-$$I_{C}=I_{s}\exp{\frac{V_{BE}}{V_{T}}}$$
-essentially, it is a voltage controlled current source. 
- 
+$$I_{C}=I_{S}\exp \left(\frac{V_{BE}}{V_{T}}\right)$$
+\noindent 
+We want to make the base very thin so that more electrons can pass through easier. If
+we do this, the depletion regions might overlap. As a general rule, to scale transistors
+smaller, we should adjust the doping concentrations on all sides. This allows us to 
+scale the depletion regions at a desired ratio. This also decreases the resistivity at
+the base. The bigger problem is that more holes will get to the emitter. 
+\vspace{8pt}
+\\ We define the emitter injection efficiency as 
+$$\gamma = \frac{I_{nE}}{I_{nE}+I_{pE}}$$
+Where $I_{nE}$ is the emitter current carried by electrons and $I_{pE}$ is the emitter
+current carried by the holes. We want this efficiency to be close to $100\%$. A way to 
+do this is by heavily doping the emitter and lightly doping the base. Another is that 
+we can use a different semiconductor material. This semiconductor material will have 
+a different bandgap. This is the basics of \textbf{Heterojunction Bipolar Transistors.}
+\vspace{8pt}
+\\
+Define the base transfer factor as $$\alpha_{T} = \frac{I_{nC}}{I_{nE}}$$
+$$\alpha_0 = \frac{I_C}{I_E}$$
+
+\noindent 
+This is the current that goes to the collector from the emitter. 
+
+\newpage
+\subsection{Early Effect and Dynamics}
+
+
 
 
 \end{document}
