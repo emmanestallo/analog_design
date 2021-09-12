@@ -1,0 +1,14 @@
+* D:\emman\Codes\Analog Design\God Mode Analog Design\CS Stage - Resistive Load.asc
+M1 out N002 0 0 N_1u l={L*10u} w=31.6u
+V1 N002 0 {VGS}
+V2 N001 0 2
+R1 N001 out 23.30k
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\emman\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.mos
+.lib transistor_models.txt
+.param L=0.1
+.param VGS=0.9
+.dc V1 0 2 1m
+.backanno
+.end
