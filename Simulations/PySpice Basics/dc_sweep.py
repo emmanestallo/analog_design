@@ -31,9 +31,15 @@ print(circuit)
 
 simulator = circuit.simulator(temperature=27, nominal_temperature = 27)
 
-analysis = simulator.operating_point() 
+analysis = simulator.dc(Vinput=slice(0,5,0.001)) 
 
 output = format_output(analysis)
 
-for i in output:
-    print(f'{i} = {output[i]}')
+fig = plt.figure()
+plt.plot(output['in'],output['out'])
+plt.grid()
+plt.xlabel('input [V]')
+plt.ylabel('output [V]')
+
+fig.savefig('sweep output.png', dpi=300)
+plt.close(fig)
