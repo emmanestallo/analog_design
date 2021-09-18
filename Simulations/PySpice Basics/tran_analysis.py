@@ -1,6 +1,5 @@
 import numpy as np 
 import matplotlib.pyplot as plt 
-import math 
 import os 
 
 import PySpice 
@@ -18,7 +17,7 @@ def format_output(analysis):
 
 logger = Logging.setup_logging()
 
-circuit = Circuit('DC Sweep')
+circuit = Circuit('Transient')
 
 #create model 
 circuit.model('MyDiode', 'D', IS=4.352@u_nA, RS=0.6458@u_Ohm, BV=110@u_V, IBV=0.0001@u_V, N=1.906)
@@ -37,7 +36,7 @@ analysis = simulator.transient(step_time=0.001@u_ms, end_time=10@u_ms)
 
 output = format_output(analysis)
 
-time = np.linspace(0,1,len(output['out']))
+time = np.linspace(0,0.01,len(output['out']))
 
 fig = plt.figure()
 plt.plot(time,output['out'])
