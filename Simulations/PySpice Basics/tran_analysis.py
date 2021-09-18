@@ -1,5 +1,6 @@
 import numpy as np 
 import matplotlib.pyplot as plt 
+import math 
 import os 
 
 import PySpice 
@@ -23,22 +24,26 @@ circuit = Circuit('DC Sweep')
 circuit.model('MyDiode', 'D', IS=4.352@u_nA, RS=0.6458@u_Ohm, BV=110@u_V, IBV=0.0001@u_V, N=1.906)
 
 #add components 
-circuit.V('input','in',circuit.gnd, 10@u_V)
-circuit.Diode('d1','in','out', model='MyDiode')
+#circuit.V('input','in',circuit.gnd, vsrc@u_V)
+circuit.SinusoidalVoltageSource('input','in',circuit.gnd, amplitude=1@u_V, frequency = 0.5@u_kHz)
+#circuit.Diode('d1','in','out', model='MyDiode')
+circuit.R('r2','in','out',4@u_kOhm)
 circuit.R('r1','out',circuit.gnd, 1@u_kOhm)
 
 print(circuit)
 
 simulator = circuit.simulator(temperature=27, nominal_temperature = 27)
 
-analysis = simulator.dc(Vinput=slice(0,5,0.001)) 
+analysis = simulator.transient(step_time=0.001@u_ms, end_time=10@u_ms) 
 
 output = format_output(analysis)
 
+time = np.linspace(0,1,len(output['out']))
+
 fig = plt.figure()
-plt.plot(output['in'],output['out'])
+plt.plot(time,output['out'])
 plt.grid()
-plt.xlabel('input [V]')
+plt.xlabel('time [s]')
 plt.ylabel('output [V]')
 
 fig.savefig('sweep output.png', dpi=300)
