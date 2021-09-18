@@ -24,11 +24,10 @@ circuit = Circuit('DC Sweep')
 circuit.model('MyDiode', 'D', IS=4.352@u_nA, RS=0.6458@u_Ohm, BV=110@u_V, IBV=0.0001@u_V, N=1.906)
 
 #add components 
-#circuit.V('input','in',circuit.gnd, vsrc@u_V)
-circuit.SinusoidalVoltageSource('input','in',circuit.gnd, amplitude=1@u_V, frequency = 0.5@u_kHz)
-#circuit.Diode('d1','in','out', model='MyDiode')
-circuit.R('r2','in','out',4@u_kOhm)
-circuit.R('r1','out',circuit.gnd, 1@u_kOhm)
+circuit.SinusoidalVoltageSource('input','in',circuit.gnd, amplitude=1@u_V, frequency = 0.25@u_kHz)
+circuit.Diode('d1','in','out', model='MyDiode')
+circuit.R('r2','out',circuit.gnd,4@u_kOhm)
+#circuit.R('r1','out',circuit.gnd, 1@u_kOhm)
 
 print(circuit)
 
