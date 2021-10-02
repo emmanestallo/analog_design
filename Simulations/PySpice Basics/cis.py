@@ -11,6 +11,8 @@ def waveForm (n,L,x):
     return psi_func 
 
 #linearly spaced vector para lang mamodel yung x - axis 
+#bale from 0 to 1 lang tapos nag insert ako ng 100 points between 0 and 1 
+#palitan mo na lang pre pag need para makita mo yung trend 
 x = np.linspace(0,1,100)
 
 #ito different values for n = 1,2,3
