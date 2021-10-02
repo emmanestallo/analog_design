@@ -3,20 +3,28 @@ import matplotlib.pyplot as plt
 import scipy as sp 
 import math 
 
+#function na = dun sa binigay na equation
 def waveForm (n,L,x):
     k = np.sqrt(2/L)
     psi_func = k*np.sin(n*math.pi*x/L) 
 
     return psi_func 
 
+#linearly spaced vector para lang mamodel yung x - axis 
 x = np.linspace(0,1,100)
+
+#ito different values for n = 1,2,3
+#same lang sila ng x axis 
 y_1 = waveForm(1,1,x)
 y_2 = waveForm(2,1,x)
 y_3 = waveForm(3,1,x)
+
+#square nila kasi squared lang daw nung y yung probability distribution
 y_sq1 = np.square(y_1)
 y_sq2 = np.square(y_2)
 y_sq3 = np.square(y_3)
 
+#plotting lang 
 fig,axes = plt.subplots(2) 
 axes[0].plot(x,y_1,'r',label= 'n=1')
 axes[0].plot(x,y_2,'g',label= 'n=2')
