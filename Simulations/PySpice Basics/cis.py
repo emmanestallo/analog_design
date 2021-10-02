@@ -21,10 +21,10 @@ y_1 = waveForm(1,1,x)
 y_2 = waveForm(2,1,x)
 y_3 = waveForm(3,1,x)
 
-#square nila kasi squared lang daw nung y yung probability distribution
-y_sq1 = np.square(y_1)
-y_sq2 = np.square(y_2)
-y_sq3 = np.square(y_3)
+#square nila kasi squared lang daw nung floor y yung probability distribution
+y_sq1 = np.square(np.floor(y_1))
+y_sq2 = np.square(np.floor(y_2))
+y_sq3 = np.square(np.floor(y_3))
 
 #plotting lang 
 fig,axes = plt.subplots(2) 
@@ -40,7 +40,7 @@ axes[1].plot(x,y_sq1,'r',label= 'n=1')
 axes[1].plot(x,y_sq2,'g',label= 'n=2')
 axes[1].plot(x,y_sq3,'b',label= 'n=3')
 axes[1].grid()
-leg = axes[1].legend(loc = 'lower left')
+leg = axes[1].legend(loc = 'upper left')
 axes[1].set_title('Probability Density')
 
 
