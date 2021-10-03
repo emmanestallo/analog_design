@@ -22,9 +22,9 @@ y_2 = waveForm(2,1,x)
 y_3 = waveForm(3,1,x)
 
 #square nila kasi squared lang daw nung floor y yung probability distribution
-y_sq1 = np.square(np.floor(y_1))
-y_sq2 = np.square(np.floor(y_2))
-y_sq3 = np.square(np.floor(y_3))
+y_sq1 = np.square(y_1)
+y_sq2 = np.square(y_2)
+y_sq3 = np.square(y_3)
 
 #plotting lang 
 fig,axes = plt.subplots(2) 
