@@ -4,7 +4,7 @@ M1 out N001 VDD VDD p_32n l=128n w=10.4u
 M2 out N002 0 0 n_32n l=96n w=3.84u
 V1 N002 N003 0.7
 V3 VDD 0 1
-V4 N003 0 SINE(0 10m 1k)
+V4 N003 0 SINE(0 10m 2k)
 .model NMOS NMOS
 .model PMOS PMOS
 .lib C:\Users\emman\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.mos
