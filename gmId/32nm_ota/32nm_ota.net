@@ -14,7 +14,7 @@ M7 N005 N005 ss ss n_32n l=640n w=32n
 M8 N006 N005 ss ss n_32n l=640n w=32n
 M9 out N002 0 0 n_32n l=96n w=3.84u
 M10 out pbias dd dd p_32n l=128n w=10.4u
-V5 pbias 0 0.538
+V5 pbias 0 0.536
 .model NMOS NMOS
 .model PMOS PMOS
 .lib C:\Users\emman\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.mos
