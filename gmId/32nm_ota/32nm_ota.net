@@ -1,0 +1,24 @@
+* C:\Users\emman\OneDrive\Desktop\Microelectronics Research\Analog\analog_design\gmId\32nm_ota\32nm_ota.asc
+M1 N001 in1 N003 N003 n_32n l=96n w=1.8u
+M2 N002 in2 N003 N003 n_32n l=96n w=1.8u
+V1 in1 0 SINE(0 0.1m 1k)
+V2 in2 0 SINE(0 -0.1m 1k)
+V3 dd 0 1.25
+M3 N002 N001 dd dd p_32n l=96n w=1u
+M4 N001 N001 dd dd p_32n l=96n w=1u
+M5 N004 N004 N005 N005 n_32n l=640n w=32n
+M6 N003 N004 N006 N006 n_32n l=640n w=32n
+I2 dd N004 1µ
+V4 ss 0 -1.25
+M7 N005 N005 ss ss n_32n l=640n w=32n
+M8 N006 N005 ss ss n_32n l=640n w=32n
+M9 out N002 0 0 n_32n l=96n w=3.84u
+M10 out pbias dd dd p_32n l=128n w=10.4u
+V5 pbias 0 0.538
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\emman\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.mos
+.include 32n_lp.txt
+.tran 10m
+.backanno
+.end
