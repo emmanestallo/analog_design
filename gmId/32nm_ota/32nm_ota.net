@@ -20,5 +20,7 @@ V5 pbias 0 0.538
 .lib C:\Users\emman\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.mos
 .include 32n_lp.txt
 .tran 10m
+* 20/3
+* 10/3
 .backanno
 .end
